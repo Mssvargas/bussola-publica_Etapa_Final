@@ -191,6 +191,17 @@ Essa estratégia torna a carga **idempotente e cumulativa**: rodar o pipeline di
 |---|---|
 | ![Tabela fato_proposicoes com tema e resumo](readme/prints/supabase_tema.jpg) | ![Range de data_apresentacao no Supabase](readme/prints/supabase_30dias.jpg) |
 
+### Dashboard de BI (link público, modo leitura)
+
+Como o Table Editor do Supabase não oferece link público no plano Free, a
+visualização dos dados (≥ 30 dias, já enriquecidos com `tema` e `resumo_executivo`)
+é publicada como um **dashboard de BI somente-leitura**, que o avaliador pode abrir
+diretamente, sem login:
+
+🔗 **Dashboard ao vivo (Power BI):** https://app.powerbi.com/view?r=eyJrIjoiMDQwMjE3NDQtMjExMi00MWExLWFhNTAtNWM3ODAyYzk5M2NlIiwidCI6IjUxZGQ3ZDM4LTYwNzctNDgzNy1hYTE0LWFlNDNmZThiM2ViMCJ9
+
+![Dashboard Bússola Pública (Power BI sobre o Supabase)](readme/prints/Dashboard_Bussola_Publica.png)
+
 
 ## Prompts e lógica utilizados na Camada de IA
 
@@ -415,4 +426,4 @@ Abaixo está a arquitetura modular implementada no projeto para garantir a separ
 
 ## About
 
-Este repositório contém o Projeto Integrador da pós-graduação em Engenharia de Dados e Inteligência Artificial. O objetivo é desenvolver um pipeline de
+Este repositório contém o Projeto Integrador da pós-graduação em Engenharia de Dados e Inteligência Artificial. O objetivo é desenvolver um pipeline de dados completo (ETL) que automatiza a captura, organização e análise de dados da API de Dados Abertos da Câmara dos Deputados.
