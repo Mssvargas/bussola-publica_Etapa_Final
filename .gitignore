@@ -1,0 +1,39 @@
+# =============================================================================
+# Bussola Publica - .gitignore
+# =============================================================================
+
+# --- Segredos / ambiente (NUNCA versionar) ---
+.env
+*.env
+!.env.example
+# .env em qualquer subpasta
+**/.env
+
+# --- Ambiente Python ---
+.venv/
+.venv-win/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Dados gerados pelo pipeline (brutos e processados) ---
+data/
+*.log
+logs/
+
+# --- Sistema operacional ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Editores / IDEs ---
+.vscode/
+.idea/
+.claude/
+
+# --- Node (gerador da apresentacao) ---
+node_modules/
