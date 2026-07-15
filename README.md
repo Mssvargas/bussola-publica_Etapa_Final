@@ -307,11 +307,11 @@ Modelo: **text-embedding-3-small** (~$0.00002 / 1K tokens).
 
 | Execução do workflow n8n (todos os nós verdes) | Digest diário por e-mail (tema + resumo IA) |
 |---|---|
-| ![Execução n8n com sucesso](readme/prints/n8n_execucao_sucesso.jpg) | ![E-mail digest Bússola Pública](readme/prints/email_digest.jpg) |
+| ![Execução n8n com sucesso (todos os nós verdes)](readme/prints/supabase_30dias.jpg) | ![E-mail digest Bússola Pública](readme/prints/email_digest.jpg) |
 
 | `fato_proposicoes` no Supabase com `tema`/`resumo_executivo` | Cobertura de dados ≥ 30 dias (`data_apresentacao`) |
 |---|---|
-| ![Tabela fato_proposicoes com tema e resumo](readme/prints/supabase_tema.jpg) | ![Range de data_apresentacao no Supabase](readme/prints/supabase_30dias.jpg) |
+| ![Tabela fato_proposicoes com tema e resumo](readme/prints/supabase_tema.jpg) | ![Range de data_apresentacao no Supabase](readme/prints/n8n_execucao_sucesso.jpg) |
 
 ### Dashboard de BI (link público, modo leitura)
 
