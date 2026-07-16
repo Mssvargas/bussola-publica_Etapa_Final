@@ -646,7 +646,9 @@ Este projeto marca a consolidação prática dos conhecimentos adquiridos ao lon
 
 Agradecemos primeiramente à **Xperiun / XP Educação** e ao corpo docente (Ítalo Mesquita, Leon Solón, César Germano, Iago Braz) por fornecerem a base teórica e os insights práticos que viabilizaram o desenvolvimento de arquiteturas modernas e integradas.
 
-Por fim, expressamos nosso sincero agradecimento a cada integrante do **Squad LegoDados**. A sinergia, dedicação técnica e o esforço mútuo durante as madrugadas de código, testes de API e refinamento do dashboard no Power BI foram os verdadeiros pilares para transformar dados legislativos complexos em um produto final de alto valor estratégico.
+Expressamos também nosso sincero agradecimento a cada integrante do **Squad LegoDados**. A sinergia, dedicação técnica e o esforço mútuo durante as madrugadas de código, testes de API e refinamento do dashboard no Power BI foram os verdadeiros pilares para transformar dados legislativos complexos em um produto final de alto valor estratégico.
+
+Por fim, um agradecimento pessoal do **Marlon** à sua família — em especial à sua esposa, que segurou todas as pontas com os dois filhos pequenos enquanto as madrugadas de código rolavam soltas. Sem esse apoio em casa, nenhuma linha desse pipeline teria saído do papel. 😂
 
 <br />
 <p align="center">
